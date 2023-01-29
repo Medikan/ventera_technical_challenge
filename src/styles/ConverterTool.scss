@@ -1,0 +1,33 @@
+.converter-tool-container {
+  margin: 40px;
+  font-size: 20px;
+
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #efefef;
+
+  .input-group {
+    margin-bottom: 10px;
+
+    label {
+      margin-right: 10px;
+    }
+
+    input {
+      font-size: 18px;
+    }
+
+    select {
+      font-size: 18px;
+    }
+  }
+
+  button {
+    width: 100%;
+    font-size: 18px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
